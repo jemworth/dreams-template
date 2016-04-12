@@ -1,0 +1,313 @@
+extends layout
+
+block content
+    .bg
+      #home.header.wow.bounceInDown(data-wow-delay='0.4s')
+        .top-header
+          .container
+            .logo
+              a(href='#', style="color:white;") LOGO
+            nav.top-nav
+              ul.top-nav
+                li
+                  a.scroll(href='#home') Home
+                li.active
+                  a.scroll(href='#services') Services
+                li
+                  a.scroll(href='#port') Portfolio
+                li
+                  a.scroll(href='#team') Team
+                li
+                  a.scroll(href='#contact') Contact
+              a#pull(href='#')
+                img(src='../img/menu-icon.png', title='menu')
+            .clearfix  
+      .banner.wow.fadeIn(data-wow-delay='0.5s')
+        .container
+          .banner-info.text-center
+            h1 Build the website of your dreams
+            br
+            span  
+            p We are a digital agency that believes in building things that are  meaningful!
+    #services.services
+      .container
+        .service-head.text-center
+          h2 Core Services
+          span  
+        .services-grids.text-center
+          .col-md-4
+            .service-grid.wow.bounceIn(data-wow-delay='0.4s')
+              span.service-icon1  
+              h3
+                a(href='#') Beautiful Designs
+              p
+                | Proin iaculis purus consequat sem digni ssim. Donec porttitora entum aenean rhoncus posuere odio in.
+          .col-md-4
+            .service-grid.wow.bounceIn(data-wow-delay='0.4s')
+              span.service-icon2  
+              h3
+                a(href='#') web development
+              p
+                | Proin iaculis purus consequat sem digni ssim. Donec porttitora entum aenean rhoncus posuere odio in.
+          .col-md-4
+            .service-grid.wow.bounceIn(data-wow-delay='0.4s')
+              span.service-icon3  
+              h3
+                a(href='#') 24/7 Support
+              p
+                | Proin iaculis purus consequat sem digni ssim. Donec porttitora entum aenean rhoncus posuere odio in.
+          .clearfix  
+      .clearfix  
+    #port.expertise
+        .expertice-grids
+          .col-md-8.expertice-left-grid.wow.fadeInLeft(data-wow-delay='0.4s')
+            .expertise-head
+              h3 Other Expertise
+              p
+                | Proin iaculis purus consequat sem cure  digni ssim. Donec porttitora entum suscipit  aenean rhoncus posuere odio in tincidunt consequat sem cure  digni ssim.
+            .expertise-left-inner-grids
+              .e-left-inner-grid
+                .e-left-inner-grid-left
+                  span.e-icon1  
+                .e-left-inner-grid-right
+                  h4 Custom setup
+                  p
+                    | Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus.
+                .clearfix  
+              .e-left-inner-grid
+                .e-left-inner-grid-left
+                  span.e-icon2  
+                .e-left-inner-grid-right
+                  h4 Cloud control
+                  p
+                    | Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus.
+                .clearfix  
+              .e-left-inner-grid
+                .e-left-inner-grid-left
+                  span.e-icon3  
+                .e-left-inner-grid-right
+                  h4 All star support team
+                  p
+                    | Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus.
+                .clearfix  
+              .e-left-inner-grid
+                .e-left-inner-grid-left
+                  span.e-icon4  
+                .e-left-inner-grid-right
+                  h4 top notch security
+                  p
+                    | Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus.
+                .clearfix  
+              .clearfix  
+            a.leran-more(href='#') Learn more
+          .col-md-4.expertice-right-grid.wow.fadeInRight(data-wow-delay='0.4s')
+          .clearfix  
+    .portfolio
+        .portfolio-top
+          .col-md-8
+            .portfolio-top-left.wow.fadeInLeft(data-wow-delay='0.4s')
+              h3 Amazing Portfolio
+              p
+                | Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit.
+              p
+                | Iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. Proin iaculis purus consequat.
+              .portfolio-top-left-grids
+                .portfolio-top-left-grid
+                  .portfolio-top-left-grid-left
+                    span.p-icon1  
+                  .portfolio-top-left-grid-right
+                    h5 Sail Away Your Worries
+                    p
+                      | Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.
+                  .clearfix  
+                .portfolio-top-left-grid
+                  .portfolio-top-left-grid-left
+                    span.p-icon2  
+                  .portfolio-top-left-grid-right
+                    h5 All-star support team
+                    p
+                      | Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.
+                  .clearfix  
+                .portfolio-top-left-grid
+                  .portfolio-top-left-grid-left
+                    span.p-icon3  
+                  .portfolio-top-left-grid-right
+                    h5 fully Integrated service
+                    p
+                      | Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.
+                  .clearfix  
+          .col-md-4.portfolio-top-right-inner.wow.fadeInRight(data-wow-delay='0.4s')
+            .portfolio-top-right
+          .clearfix  
+        .portfolio-works
+            .col-md-4.portfolio-work-grid.wow.bounceIn(data-wow-delay='0.4s')
+              .portfolio-work-grid-pic
+                img(src='../img/p1.jpg', title='name')
+              .portfolio-work-grid-caption
+                h4 Project title
+                p
+                  | Here you can find some of our latest works,  Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. to see the details of these works just click the thumbnails below.
+            .col-md-4.portfolio-work-grid.wow.bounceIn(data-wow-delay='0.4s')
+              .portfolio-work-grid-pic
+                img(src='../img/p2.jpg', title='name')
+              .portfolio-work-grid-caption
+                h4 Project title
+                p
+                  | Here you can find some of our latest works,  Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. to see the details of these works just click the thumbnails below.
+            .col-md-4.portfolio-work-grid.wow.bounceIn(data-wow-delay='0.4s')
+              .portfolio-work-grid-pic
+                img(src='../img/p3.jpg', title='name')
+              .portfolio-work-grid-caption
+                h4 Project title
+                p
+                  | Here you can find some of our latest works,  Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. to see the details of these works just click the thumbnails below.
+            .col-md-4.portfolio-work-grid.wow.bounceIn(data-wow-delay='0.4s')
+              .portfolio-work-grid-pic
+                img(src='../img/p4.jpg', title='name')
+              .portfolio-work-grid-caption
+                h4 Project title
+                p
+                  | Here you can find some of our latest works,  Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. to see the details of these works just click the thumbnails below.
+            .col-md-4.portfolio-work-grid.wow.bounceIn(data-wow-delay='0.4s')
+              .portfolio-work-grid-pic
+                img(src='../img/p5.jpg', title='name')
+              .portfolio-work-grid-caption
+                h4 Project title
+                p
+                  | Here you can find some of our latest works,  Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. to see the details of these works just click the thumbnails below.
+            .col-md-4.portfolio-work-grid.wow.bounceIn(data-wow-delay='0.4s')
+              .portfolio-work-grid-pic
+                img(src='../img/p6.jpg', title='name')
+              .portfolio-work-grid-caption
+                h4 Project title
+                p
+                  | Here you can find some of our latest works,  Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. to see the details of these works just click the thumbnails below.
+            .clearfix  
+      .about
+        .wrap
+          .about-head
+            h1 About us
+            span  
+          .about-time-line
+            li
+              .cbp_tmicon.img1  
+              .cbp_tmlabel.wow.fadeInLeft(data-wow-delay='0.4s')
+                h2 July 2010 Our Humble Beginnings
+                p
+                  | Proin iaculis purus consequat sem cure  digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit.
+            li
+              .cbp_tmicon1.img2  
+              .cbp_tmlabel.cbp_tmlabel1.wow.fadeInRight(data-wow-delay='0.4s')
+                h2 January 2011 Facing Startup Battles 
+                p
+                  | Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.
+            br
+            li
+              .cbp_tmicon2.img3  
+              .cbp_tmlabel.wow.fadeInLeft(data-wow-delay='0.4s')
+                h2 December 2012 Enter The Dark Days 
+                p
+                  | Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. Proin iaculis purus consequat sem cure digni.
+            li
+              .cbp_tmicon3.img4  
+              .cbp_tmlabel.cbp_tmlabel1.wow.fadeInRight(data-wow-delay='0.4s')
+                h2 January 2013Our Triumph 
+                p
+                  | Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean.
+            li
+              .cbp_tmicon4.img5  
+            .clearfix  
+          .clearfix  
+      #team.team-members
+        .wrap
+          .tm-head
+            h3 our amazing team
+            p Proin iaculis purus consequat sem cure.
+          .tm-head-grids
+            .tm-head-grid.wow.fadeInLeft(data-wow-delay='0.4s')
+              img(src='../img/team-member1.jpg', alt='')
+              h4 Kimberly Thompson
+              h5 Marketer
+              ul.top-social-icons
+                li
+                  a.twitter(href='#')  
+                li
+                  a.facebook(href='#')  
+                li
+                  a.pin(href='#')  
+                .clear  
+            .tm-head-grid.wow.fadeInUp(data-wow-delay='0.4s')
+              img(src='../img/team-member2.jpg', alt='')
+              h4 Rico Massimo
+              h5 Coder
+              ul.top-social-icons
+                li
+                  a.twitter(href='#')  
+                li
+                  a.facebook(href='#')  
+                li
+                  a.pin(href='#')  
+                .clear  
+            .tm-head-grid.wow.fadeInRight(data-wow-delay='0.4s')
+              img(src='../img/team-member3.jpg', alt='')
+              h4 Uku Mason
+              h5 Graphic Designer
+              ul.top-social-icons
+                li
+                  a.twitter(href='#')  
+                li
+                  a.facebook(href='#')  
+                li
+                  a.pin(href='#')  
+                .clear  
+            .clearfix  
+          p.team-info
+            | Proin iaculis purus consequat sem cure  digni ssim donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt proin iaculis.
+      #contact.contact
+        .container
+          .contact-grids
+            .col-md-6
+              .contact-left.wow.fadeInRight(data-wow-delay='0.4s')
+                h3 Contact Us
+                label
+                  | Don't be shy, drop us an email and say hello! We are a really nice bunch of people :)
+                .contact-left-grids
+                  .col-md-6
+                    .contact-left-grid
+                      p
+                        span.c-mobi  
+                        | (416) 555-0000
+                      p
+                        span.c-twitter  
+                        a(href='#') @dreams
+                      p
+                        span.c-pluse  
+                        a(href='#') plus.com/dreams
+                  .col-md-6
+                    .contact-right-grid
+                      p
+                        span.c-msg  
+                        a(href='mailto:hello@dreams.com') hello@dreams.com
+                      p
+                        span.c-face  
+                        a(href='#') facebook.com/dreams
+                      p
+                        span.c-pin  
+                        a(href='#') pinterest.com/dreams
+                  .clearfix  
+            .col-md-6
+              .contact-right.wow.fadeInLeft(data-wow-delay='0.4s')
+                form
+                  input.text(type='text', value='Name...', onfocus="this.value = '';", onblur="if (this.value == '') {this.value = 'Name...';}")
+                  input.text(type='text', value='Email...', onfocus="this.value = '';", onblur="if (this.value == '') {this.value = 'Email...';}")
+                  textarea(value='Message:', onfocus="this.value = '';", onblur="if (this.value == '') {this.value = 'Message';}") Message..
+                  input.wow.shake(data-wow-delay='0.3s', type='submit', value='Send Message')
+            .clearfix  
+          .copy-right.text-center
+            p
+              | Template by 
+              a(href='http://webfactories.biz/') Webfactories
+
+            a#toTop(href='#', style='display: block;')
+              span#toTopHover(style='opacity: 1;')  
+
